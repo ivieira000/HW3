@@ -39,7 +39,7 @@ Fix the Data:
 
 ```{r}
 
-#Get rid of NA's. (I wonder what NA means within the dataset, because there is an option in which the foreign citzen chooses not to report citzenship status)
+#Identifies NA's. (I wonder what NA means within the dataset, because there is an option in which the foreign citzen chooses not to report citzenship status)
 is.na(citzenship_f) <- which(citzenship_f == 0)
 
 #Normalizes the data to avoid misclassification:
