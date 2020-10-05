@@ -45,7 +45,7 @@ is.na(citzenship_f) <- which(citzenship_f == 0)
 #Normalizes the data to avoid misclassification:
 norm_educ <- norm_varb(data_NYC$EducationCode)
 norm_BPL <- norm_varb(data_NYC$BirthPlaceCode)
-norm_wage <-norm_varb(data_NYC$INCWAGE)
+norm_wage <-norm_varb(data_NYC$INCTOT)
 ```
 
 Create a Dataframe to use:
