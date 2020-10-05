@@ -5,7 +5,7 @@ date: "10/3/2020"
 output: github_document
 Group: Christopher Tinevra, Akimawe Kadiri, Nicole Kerrison, Mostafa Ragheb, Charles Reed.
 ---
-What I want to predict: Citzenship status of foreigners 
+What I want to predict: Citzenship status of foreigners.  
 What I think that might be useful in predicting it: Birth Place (I have a previous bias that individuals from certain countries may have more difficulty in getting naturalized) and Education Level (My bias is that individuals with higher education attainment don't have as much of a hard time getting their papers). 
 ```{r}
 load("~/Documents/College/Fall 2020/Econometrics/R-Projects/acs2017_ny_data.RData")
